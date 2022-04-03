@@ -10,8 +10,8 @@
     grid-template-rows: 100px auto auto 50px;
     grid-template-areas: 
     'cabeçalho cabeçalho cabeçalho'
-    'cont-secundario cont-principal cont-principal'
-    'cont-secundario cont-principal cont-principal'
+    'cont-principal cont-principal cont-principal'
+    'cont-principal cont-principal cont-principal'
     'rodape rodape rodape';
     gap:5px;
     width:90%;
@@ -77,7 +77,7 @@ main {
     grid-area: cont-principal;
     display:grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 .destaque {
     max-width: 100%;
@@ -100,7 +100,6 @@ footer {
         grid-template-areas: 
     'cabeçalho'
     'cont-principal'
-    'cont-secundario'
     'rodape';
     }
     nav {
